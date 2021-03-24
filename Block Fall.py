@@ -377,7 +377,7 @@ def isOnBoard(x, y):
 
 
 def isValidPosition(board, piece, adjX=0, adjY=0):
-    # Return True if the piece is within the board and not colliding
+    # Return True if the block is within the board and not colliding
     for x in range(TEMPLATEWIDTH):
         for y in range(TEMPLATEHEIGHT):
             isAboveBoard = y + piece['y'] + adjY < 0
